@@ -1,186 +1,187 @@
 package com.redi.j2;
 
+
 public class Map {
 
-    private Integer id, update, cases, todayCases, deaths, todayDeaths, recovered, todayRecovered,
+    private long id, update, cases, todayCases, deaths, todayDeaths, recovered, todayRecovered,
             active, critical, casesPerOneMillion, deathsPerOneMillion, tests, testsPerOneMillion,
             population, continent, oneCasePerPeople, oneDeathPerPeople, oneTestPerPeople, activePerOneMillion,
             recoveredPerOneMillion, criticalPerOneMillion;
     private String country, iso2, iso3, lat, lang, flag;
 
-    public Integer getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(long id) {
         this.id = id;
     }
 
-    public Integer getUpdate() {
+    public long getUpdate() {
         return update;
     }
 
-    public void setUpdate(Integer update) {
+    public void setUpdate(long update) {
         this.update = update;
     }
 
-    public Integer getCases() {
+    public long getCases() {
         return cases;
     }
 
-    public void setCases(Integer cases) {
+    public void setCases(long cases) {
         this.cases = cases;
     }
 
-    public Integer getTodayCases() {
+    public long getTodayCases() {
         return todayCases;
     }
 
-    public void setTodayCases(Integer todayCases) {
+    public void setTodayCases(long todayCases) {
         this.todayCases = todayCases;
     }
 
-    public Integer getDeaths() {
+    public long getDeaths() {
         return deaths;
     }
 
-    public void setDeaths(Integer deaths) {
+    public void setDeaths(long deaths) {
         this.deaths = deaths;
     }
 
-    public Integer getTodayDeaths() {
+    public long getTodayDeaths() {
         return todayDeaths;
     }
 
-    public void setTodayDeaths(Integer todayDeaths) {
+    public void setTodayDeaths(long todayDeaths) {
         this.todayDeaths = todayDeaths;
     }
 
-    public Integer getRecovered() {
+    public long getRecovered() {
         return recovered;
     }
 
-    public void setRecovered(Integer recovered) {
+    public void setRecovered(long recovered) {
         this.recovered = recovered;
     }
 
-    public Integer getTodayRecovered() {
+    public long getTodayRecovered() {
         return todayRecovered;
     }
 
-    public void setTodayRecovered(Integer todayRecovered) {
+    public void setTodayRecovered(long todayRecovered) {
         this.todayRecovered = todayRecovered;
     }
 
-    public Integer getActive() {
+    public long getActive() {
         return active;
     }
 
-    public void setActive(Integer active) {
+    public void setActive(long active) {
         this.active = active;
     }
 
-    public Integer getCritical() {
+    public long getCritical() {
         return critical;
     }
 
-    public void setCritical(Integer critical) {
+    public void setCritical(long critical) {
         this.critical = critical;
     }
 
-    public Integer getCasesPerOneMillion() {
+    public long getCasesPerOneMillion() {
         return casesPerOneMillion;
     }
 
-    public void setCasesPerOneMillion(Integer casesPerOneMillion) {
+    public void setCasesPerOneMillion(long casesPerOneMillion) {
         this.casesPerOneMillion = casesPerOneMillion;
     }
 
-    public Integer getDeathsPerOneMillion() {
+    public long getDeathsPerOneMillion() {
         return deathsPerOneMillion;
     }
 
-    public void setDeathsPerOneMillion(Integer deathsPerOneMillion) {
+    public void setDeathsPerOneMillion(long deathsPerOneMillion) {
         this.deathsPerOneMillion = deathsPerOneMillion;
     }
 
-    public Integer getTests() {
+    public long getTests() {
         return tests;
     }
 
-    public void setTests(Integer tests) {
+    public void setTests(long tests) {
         this.tests = tests;
     }
 
-    public Integer getTestsPerOneMillion() {
+    public long getTestsPerOneMillion() {
         return testsPerOneMillion;
     }
 
-    public void setTestsPerOneMillion(Integer testsPerOneMillion) {
+    public void setTestsPerOneMillion(long testsPerOneMillion) {
         this.testsPerOneMillion = testsPerOneMillion;
     }
 
-    public Integer getPopulation() {
+    public long getPopulation() {
         return population;
     }
 
-    public void setPopulation(Integer population) {
+    public void setPopulation(long population) {
         this.population = population;
     }
 
-    public Integer getContinent() {
+    public long getContinent() {
         return continent;
     }
 
-    public void setContinent(Integer continent) {
+    public void setContinent(long continent) {
         this.continent = continent;
     }
 
-    public Integer getOneCasePerPeople() {
+    public long getOneCasePerPeople() {
         return oneCasePerPeople;
     }
 
-    public void setOneCasePerPeople(Integer oneCasePerPeople) {
+    public void setOneCasePerPeople(long oneCasePerPeople) {
         this.oneCasePerPeople = oneCasePerPeople;
     }
 
-    public Integer getOneDeathPerPeople() {
+    public long getOneDeathPerPeople() {
         return oneDeathPerPeople;
     }
 
-    public void setOneDeathPerPeople(Integer oneDeathPerPeople) {
+    public void setOneDeathPerPeople(long oneDeathPerPeople) {
         this.oneDeathPerPeople = oneDeathPerPeople;
     }
 
-    public Integer getOneTestPerPeople() {
+    public long getOneTestPerPeople() {
         return oneTestPerPeople;
     }
 
-    public void setOneTestPerPeople(Integer oneTestPerPeople) {
+    public void setOneTestPerPeople(long oneTestPerPeople) {
         this.oneTestPerPeople = oneTestPerPeople;
     }
 
-    public Integer getActivePerOneMillion() {
+    public long getActivePerOneMillion() {
         return activePerOneMillion;
     }
 
-    public void setActivePerOneMillion(Integer activePerOneMillion) {
+    public void setActivePerOneMillion(long activePerOneMillion) {
         this.activePerOneMillion = activePerOneMillion;
     }
 
-    public Integer getRecoveredPerOneMillion() {
+    public long getRecoveredPerOneMillion() {
         return recoveredPerOneMillion;
     }
 
-    public void setRecoveredPerOneMillion(Integer recoveredPerOneMillion) {
+    public void setRecoveredPerOneMillion(long recoveredPerOneMillion) {
         this.recoveredPerOneMillion = recoveredPerOneMillion;
     }
 
-    public Integer getCriticalPerOneMillion() {
+    public long getCriticalPerOneMillion() {
         return criticalPerOneMillion;
     }
 
-    public void setCriticalPerOneMillion(Integer criticalPerOneMillion) {
+    public void setCriticalPerOneMillion(long criticalPerOneMillion) {
         this.criticalPerOneMillion = criticalPerOneMillion;
     }
 
@@ -230,40 +231,5 @@ public class Map {
 
     public void setFlag(String flag) {
         this.flag = flag;
-    }
-
-    @Override
-    public String toString() {
-        final StringBuffer sb = new StringBuffer("Map{");
-        sb.append("id=").append(id);
-        sb.append(", update=").append(update);
-        sb.append(", cases=").append(cases);
-        sb.append(", todayCases=").append(todayCases);
-        sb.append(", deaths=").append(deaths);
-        sb.append(", todayDeaths=").append(todayDeaths);
-        sb.append(", recovered=").append(recovered);
-        sb.append(", todayRecovered=").append(todayRecovered);
-        sb.append(", active=").append(active);
-        sb.append(", critical=").append(critical);
-        sb.append(", casesPerOneMillion=").append(casesPerOneMillion);
-        sb.append(", deathsPerOneMillion=").append(deathsPerOneMillion);
-        sb.append(", tests=").append(tests);
-        sb.append(", testsPerOneMillion=").append(testsPerOneMillion);
-        sb.append(", population=").append(population);
-        sb.append(", continent=").append(continent);
-        sb.append(", oneCasePerPeople=").append(oneCasePerPeople);
-        sb.append(", oneDeathPerPeople=").append(oneDeathPerPeople);
-        sb.append(", oneTestPerPeople=").append(oneTestPerPeople);
-        sb.append(", activePerOneMillion=").append(activePerOneMillion);
-        sb.append(", recoveredPerOneMillion=").append(recoveredPerOneMillion);
-        sb.append(", criticalPerOneMillion=").append(criticalPerOneMillion);
-        sb.append(", country='").append(country).append('\'');
-        sb.append(", iso2='").append(iso2).append('\'');
-        sb.append(", iso3='").append(iso3).append('\'');
-        sb.append(", lat='").append(lat).append('\'');
-        sb.append(", lang='").append(lang).append('\'');
-        sb.append(", flag='").append(flag).append('\'');
-        sb.append('}');
-        return sb.toString();
     }
 }

@@ -19,7 +19,7 @@ public class DataService {
 
         HttpResponse<String> httpResponse = client.send(request, HttpResponse.BodyHandlers.ofString());
 
-        System.out.println(httpResponse.body());
+        //System.out.println(httpResponse.body());
 
         try (FileWriter file = new FileWriter("MyJson.json"))
         {

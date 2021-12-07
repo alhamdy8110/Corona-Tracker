@@ -14,7 +14,7 @@ import java.net.http.HttpResponse;
 
 public class DataService {
 
-        private static String Data_Url = "https://corona.lmao.ninja/";
+        private static String Data_Url = "https://corona.lmao.ninja/v2/countries?";
 
         @PostConstruct
         public void FetchData() throws IOException, InterruptedException {
